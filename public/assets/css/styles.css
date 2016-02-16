@@ -1,6 +1,9 @@
 body {
   padding-top: 50px; }
 
+section {
+  padding: 40px 0; }
+
 .navbar-default .navbar-brand {
   color: #1caa98; }
 
@@ -24,3 +27,7 @@ body {
     width: 340px;
     bottom: -22px;
     left: 40px; }
+
+#middle img {
+  width: 100%;
+  padding: 4px; }
