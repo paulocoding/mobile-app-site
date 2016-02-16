@@ -4,6 +4,21 @@ body {
 section {
   padding: 40px 0; }
 
+section#features {
+  background-color: #1caa98;
+  color: #fff; }
+  section#features ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2em; }
+    section#features ul li .glyphicon {
+      position: relative;
+      padding: 0 10px 0 0;
+      font-size: 0.9em;
+      top: 2px; }
+  section#features .brand-logo {
+    padding: 40px 0 0 0; }
+
 .navbar-default .navbar-brand {
   color: #1caa98; }
 
