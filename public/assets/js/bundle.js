@@ -1,6 +1,8 @@
 
+// main function
+// executed on page ready
 var main = function() {
-	console.log('hello world');
+
 };
 // end of main function
 
