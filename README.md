@@ -1,1 +1,1 @@
-# A sample website for portfolio for a fictional mobile app
+# A sample website for a fictional mobile app
