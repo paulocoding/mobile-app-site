@@ -26,6 +26,30 @@ section#features {
   }
 }
 
+footer{
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  .container {
+    padding: 30px 0 16px 0;
+  }
+  li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+    a{
+      color: #fff;
+      &:hover{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.r-text{
+  text-align: right;
+}
+
 .navbar-default .navbar-brand {
   color: $brand-color;
 }

@@ -19,6 +19,25 @@ section#features {
   section#features .brand-logo {
     padding: 40px 0 0 0; }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px; }
+  footer .container {
+    padding: 30px 0 16px 0; }
+  footer li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px; }
+    footer li a {
+      color: #fff; }
+      footer li a:hover {
+        color: #fff;
+        text-decoration: none; }
+
+.r-text {
+  text-align: right; }
+
 .navbar-default .navbar-brand {
   color: #1caa98; }
 
