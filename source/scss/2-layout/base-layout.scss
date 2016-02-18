@@ -115,3 +115,54 @@ footer{
     padding: 4px;
   }
 }
+
+// Media Queries
+@media (max-width: 991px) {
+  .phone-img{
+    display: none;
+  }
+  #middle{
+    .col-md-4{
+      padding-bottom: 10px;
+    }
+  }
+  footer{
+    text-align: center;
+    .r-text{
+      text-align: center;
+    }
+  }
+  .brand-logo{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron{
+    height: 400px;
+    p{
+      margin-bottom: 10px;
+    }
+    .app-btn {
+      width: 40%;
+      margin: 10px 5%;
+      display: block;
+      float: left;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .jumbotron{
+    height: 500px;
+    p{
+      margin-bottom: 30px;
+    }
+    .app-btn {
+      width: 50%;
+      margin: 10px auto;
+      display: block;
+      float: none;
+    }
+  }
+}
