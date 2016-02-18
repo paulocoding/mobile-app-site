@@ -44,6 +44,16 @@ section#about{
   }
 }
 
+section#contact{
+  img{
+    width: 100%;
+    padding: 0;
+  }
+  textarea {
+    resize: none;
+  }
+}
+
 footer{
   background-color: #333;
   color: #fff;
